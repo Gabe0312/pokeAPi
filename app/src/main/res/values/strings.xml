@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PokeAPIRecycle</string>
+    <string name="pokemon_id">ID: %1$d</string>
+</resources>
