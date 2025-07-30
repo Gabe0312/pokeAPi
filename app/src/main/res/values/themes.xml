@@ -4,7 +4,6 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name = "android:fontFamily">@font/agbalumo</item>
-
         <item name = "android:colorBackground">@color/indigo</item>
         <item name ="android:textColorPrimary">@color/light_green</item>
 
@@ -12,4 +11,12 @@
     </style>
 
     <style name="Theme.PokeAPIRecycle" parent="Base.Theme.PokeAPIRecycle" />
+
+    <style name="TextAppearance.Quote" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:fontFamily">@font/agbalumo</item>
+        <item name="android:padding">8dp</item>
+
+    </style>
 </resources>

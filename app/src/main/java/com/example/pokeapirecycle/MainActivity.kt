@@ -26,6 +26,8 @@ class  MainActivity : AppCompatActivity() {
         rvPoke.adapter = adapter
         rvPoke.layoutManager = LinearLayoutManager(this)
 
+
+
         fetchPokemonList()
     }
 
